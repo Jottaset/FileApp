@@ -1,0 +1,14 @@
+/Users/aluno/Projects/FileApp/FileApp/bin/Debug/netstandard2.0/FileApp.deps.json
+/Users/aluno/Projects/FileApp/FileApp/bin/Debug/netstandard2.0/FileApp.dll
+/Users/aluno/Projects/FileApp/FileApp/bin/Debug/netstandard2.0/FileApp.pdb
+/Users/aluno/Projects/FileApp/FileApp/obj/Debug/netstandard2.0/FileApp.csprojAssemblyReference.cache
+/Users/aluno/Projects/FileApp/FileApp/obj/Debug/netstandard2.0/App.xaml.g.cs
+/Users/aluno/Projects/FileApp/FileApp/obj/Debug/netstandard2.0/MainPage.xaml.g.cs
+/Users/aluno/Projects/FileApp/FileApp/obj/Debug/netstandard2.0/FileApp.csproj.CoreCompileInputs.cache
+/Users/aluno/Projects/FileApp/FileApp/obj/Debug/netstandard2.0/FileApp.AssemblyInfoInputs.cache
+/Users/aluno/Projects/FileApp/FileApp/obj/Debug/netstandard2.0/FileApp.AssemblyInfo.cs
+/Users/aluno/Projects/FileApp/FileApp/obj/Debug/netstandard2.0/XamlC.stamp
+/Users/aluno/Projects/FileApp/FileApp/obj/Debug/netstandard2.0/FileApp.dll
+/Users/aluno/Projects/FileApp/FileApp/obj/Debug/netstandard2.0/FileApp.pdb
+/Users/aluno/Projects/FileApp/FileApp/obj/Debug/netstandard2.0/ConsomeContexto.xaml.g.cs
+/Users/aluno/Projects/FileApp/FileApp/obj/Debug/netstandard2.0/PageListaArquivo.xaml.g.cs

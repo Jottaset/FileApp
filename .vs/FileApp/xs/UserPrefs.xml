@@ -1,0 +1,37 @@
+﻿<Properties StartupConfiguration="{BE4B8368-7BA8-4500-930E-08690CCA9DAC}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="FileApp/ConsomeContexto.xaml.cs">
+    <Files>
+      <File FileName="FileApp/MainPage.xaml.cs" Line="15" Column="10" />
+      <File FileName="FileApp/MainPage.xaml" Line="6" Column="29" />
+      <File FileName="FileApp/ConsomeContexto.xaml" Line="16" Column="38" />
+      <File FileName="FileApp/ConsomeContexto.xaml.cs" Line="18" Column="35" />
+      <File FileName="FileApp/App.xaml.cs" Line="21" Column="13" />
+      <File FileName="FileApp/PageListaArquivo.xaml" Line="6" Column="1" />
+      <File FileName="FileApp/PageListaArquivo.xaml.cs" Line="1" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="FileApp" expanded="True">
+            <Node name="FileApp" expanded="True">
+              <Node name="App.xaml" expanded="True" />
+              <Node name="ConsomeContexto.xaml" expanded="True">
+                <Node name="ConsomeContexto.xaml.cs" selected="True" />
+              </Node>
+              <Node name="MainPage.xaml" expanded="True" />
+              <Node name="PageListaArquivo.xaml" expanded="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.FileApp.iOS FirstBuild="True" />
+  <MonoDevelop.Ide.ItemProperties.FileApp.Android PreferredExecutionTarget="Android.5711d61d" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
