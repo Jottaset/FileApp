@@ -11,4 +11,3 @@
 /Users/aluno/Projects/FileApp/FileApp/obj/Debug/netstandard2.0/FileApp.dll
 /Users/aluno/Projects/FileApp/FileApp/obj/Debug/netstandard2.0/FileApp.pdb
 /Users/aluno/Projects/FileApp/FileApp/obj/Debug/netstandard2.0/ConsomeContexto.xaml.g.cs
-/Users/aluno/Projects/FileApp/FileApp/obj/Debug/netstandard2.0/PageListaArquivo.xaml.g.cs

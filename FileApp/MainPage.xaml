@@ -12,14 +12,29 @@
     <StackLayout>
         
         <!-- Place new controls here -->
+        
         <Editor x:Name="editor_valor"
                 HeightRequest="200"
+                BackgroundColor="Silver"
                 Margin="20, 20, 20, 0"/>
         
         <Label Text="Inicial_Label!" 
-               FontSize="50"
+               FontSize="30"
                x:Name="lbl_inicial"
                HorizontalOptions="Center" 
                VerticalOptions="CenterAndExpand"/>
+        
+        <Button Text="Verificar Dados"
+                FontSize="20"
+                HorizontalOptions="Center"
+                VerticalOptions="EndAndExpand"
+                Clicked="VerificarDados"/>
+        
+        <Button Text="Quebrar String"
+                FontSize="20"
+                HorizontalOptions="Center"
+                VerticalOptions="EndAndExpand"
+                Clicked="breakString"/>
+        
     </StackLayout>
 </ContentPage>

@@ -11,11 +11,8 @@
         
         <!-- Place new controls here -->
         
-        <Label Text="Secondary_Label"
-               FontSize="50"
-               x:Name="lbl_secundaria"
-               HorizontalOptions="Center" 
-               VerticalOptions="CenterAndExpand"/>
+        <ListView x:Name="MinhaLista"
+                  ItemSelected="Handle_ItemSelected"/>
     </StackLayout>
     
 </ContentPage>

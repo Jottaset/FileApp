@@ -8,7 +8,7 @@ namespace FileApp
 {
     public partial class App : Application
     {
-        public static string ValodDoContexto { get; set; }
+        public static string ValorDoContexto { get; set; }
 
         public static string PastaDiretorio { get; set; }
 
@@ -16,7 +16,7 @@ namespace FileApp
         {
             InitializeComponent();
 
-            ValodDoContexto = "Nosso Valor";
+            ValorDoContexto = "Nosso Valor";
             PastaDiretorio = Path.Combine(Environment.GetFolderPath
             (Environment.SpecialFolder.LocalApplicationData));
 
