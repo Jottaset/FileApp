@@ -21,7 +21,8 @@ namespace FileApp
             string nome = Path.GetRandomFileName() + ".txt";
             string nomearquivo = Path.Combine(App.PastaDiretorio,$"{nome}");
 
-            File.Create(nomearquivo);
+            //File.Create(nomearquivo);
+            File.WriteAllText(nomearquivo, "Testndo conteudo...");
 
             lbl_inicial.Text = "Adicionando...";
 
@@ -53,7 +54,7 @@ namespace FileApp
         {
             InitializeComponent();
             lbl_inicial.Text = App.ValorDoContexto;
-            editor_valor.Text = App.PastaDiretorio;
+            //editor_valor.Text = App.PastaDiretorio;
             NavigationPage.SetHasBackButton(this, false);
         }
     }

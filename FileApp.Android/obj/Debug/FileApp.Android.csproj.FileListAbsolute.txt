@@ -6,7 +6,6 @@
 /Users/aluno/Projects/FileApp/FileApp.Android/bin/Debug/FileApp.pdb
 /Users/aluno/Projects/FileApp/FileApp.Android/obj/Debug/FileApp.Android.nuget.stamp
 /Users/aluno/Projects/FileApp/FileApp.Android/obj/Debug/MonoAndroid,Version=v8.1.AssemblyAttributes.cs
-/Users/aluno/Projects/FileApp/FileApp.Android/obj/Debug/FileApp.Android.csprojAssemblyReference.cache
 /Users/aluno/Projects/FileApp/FileApp.Android/obj/Debug/libraryimports.cache.stamp
 /Users/aluno/Projects/FileApp/FileApp.Android/obj/Debug/res.flag
 /Users/aluno/Projects/FileApp/FileApp.Android/obj/Debug/FileApp.Android.csproj.CoreCompileInputs.cache
@@ -34,6 +33,7 @@
 /Users/aluno/Projects/FileApp/FileApp.Android/obj/Debug/R.cs.flag
 /Users/aluno/Projects/FileApp/FileApp.Android/obj/Debug/R.txt
 /Users/aluno/Projects/FileApp/FileApp.Android/obj/Debug/uploadflags.txt
+/Users/aluno/Projects/FileApp/FileApp.Android/obj/Debug/FileApp.Android.csprojAssemblyReference.cache
 /Users/aluno/Projects/FileApp/FileApp.Android/bin/Debug/FormsViewGroup.pdb
 /Users/aluno/Projects/FileApp/FileApp.Android/bin/Debug/Mono.Android.pdb
 /Users/aluno/Projects/FileApp/FileApp.Android/bin/Debug/Xamarin.Forms.Core.pdb

@@ -11,8 +11,16 @@
         
         <!-- Place new controls here -->
         
-        <ListView x:Name="MinhaLista"
-                  ItemSelected="Handle_ItemSelected"/>
+        <!--<ListView x:Name="MinhaLista" ItemSelected="Handle_ItemSelected"/>-->
+        
+        <ListView x:Name="MinhaLista">
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <TextCell Text="{Binding Conteudo}"/>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
+        
     </StackLayout>
     
 </ContentPage>

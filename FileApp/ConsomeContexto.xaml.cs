@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using System.IO;
@@ -26,16 +26,16 @@ namespace FileApp
 
             string DeleteName = Path.Combine(App.PastaDiretorio, $"{e.SelectedItem}");
 
-            var resposta = await DisplayAlert("","Deseja Deletar  Arquivo: ","Sim", "Nao");
+            var resposta = await DisplayAlert("", "Deseja Deletar  Arquivo: ", "Sim", "Nao");
 
             // Segredi Estado
             // Quando vc cria o arquivo, vc passa o valor absoluto
             // Pra excluir eh a mesma coisa
-            if(resposta == true)
+            if (resposta == true)
             {
                 File.Delete(DeleteName);
 
-               await Navigation.PushAsync(new ConsomeContexto());
+                await Navigation.PushAsync(new ConsomeContexto());
 
             }
 
@@ -51,14 +51,18 @@ namespace FileApp
 
         protected override void OnAppearing()
         {
-            var arquivos = Directory.EnumerateFiles(App.PastaDiretorio, "*.txt");
-            foreach(var nomedearquivos in arquivos)
-            {
-                int indice = nomedearquivos.LastIndexOf('/');
+            var meusArquivos = new List<Arquivo>();
 
-                listadearquivos.Add(nomedearquivos.Substring(indice + 1));
+            var arquivos = Directory.EnumerateFiles(App.PastaDiretorio, "*.txt");
+            foreach (var nomedearquivos in arquivos)
+            {
+                //int indice = nomedearquivos.LastIndexOf('/');
+                //listadearquivos.Add(nomedearquivos.Substring(indice + 1));
+
+                meusArquivos.Add(new Arquivo { Conteudo = "Testando..." });
+                
             }
-            MinhaLista.ItemsSource = listadearquivos;
+            MinhaLista.ItemsSource = meusArquivos;
 
         }
     }

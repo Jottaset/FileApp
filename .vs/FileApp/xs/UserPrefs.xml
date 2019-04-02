@@ -1,25 +1,22 @@
 ﻿<Properties StartupConfiguration="{BE4B8368-7BA8-4500-930E-08690CCA9DAC}|Default">
   <MonoDevelop.Ide.Workbench ActiveDocument="FileApp/ConsomeContexto.xaml.cs">
     <Files>
-      <File FileName="FileApp/MainPage.xaml.cs" Line="49" Column="54" />
-      <File FileName="FileApp/MainPage.xaml" Line="21" Column="38" />
-      <File FileName="FileApp/ConsomeContexto.xaml" Line="15" Column="52" />
-      <File FileName="FileApp/ConsomeContexto.xaml.cs" Line="28" Column="16" />
+      <File FileName="FileApp/MainPage.xaml" Line="40" Column="15" />
+      <File FileName="FileApp/MainPage.xaml.cs" Line="26" Column="13" />
+      <File FileName="FileApp/ConsomeContexto.xaml" Line="27" Column="1" />
+      <File FileName="FileApp/ConsomeContexto.xaml.cs" Line="27" Column="5" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="FileApp" expanded="True">
             <Node name="FileApp" expanded="True">
-              <Node name="Dependencies" expanded="True">
-                <Node name="PackageDependencies" expanded="True" />
-              </Node>
-              <Node name="App.xaml" expanded="True" />
               <Node name="ConsomeContexto.xaml" expanded="True">
                 <Node name="ConsomeContexto.xaml.cs" selected="True" />
               </Node>
               <Node name="MainPage.xaml" expanded="True" />
             </Node>
+            <Node name="FileApp.Android" expanded="True" />
           </Node>
         </State>
       </Pad>
@@ -27,7 +24,7 @@
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.ItemProperties.FileApp.iOS FirstBuild="True" />
+  <MonoDevelop.Ide.ItemProperties.FileApp.iOS FirstBuild="True" PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget." />
   <MonoDevelop.Ide.ItemProperties.FileApp.Android PreferredExecutionTarget="Android.5711d61d" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
