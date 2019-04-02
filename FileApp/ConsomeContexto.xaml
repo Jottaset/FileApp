@@ -16,7 +16,8 @@
         <ListView x:Name="MinhaLista">
             <ListView.ItemTemplate>
                 <DataTemplate>
-                    <TextCell Text="{Binding Conteudo}"/>
+                    <TextCell Text="{Binding Conteudo}"
+                              Detail="{Binding DtCriacao}"/>
                 </DataTemplate>
             </ListView.ItemTemplate>
         </ListView>

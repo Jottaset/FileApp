@@ -19,16 +19,18 @@ namespace FileApp
             //Arquivo.Text = lbl_inicial;
 
             string nome = Path.GetRandomFileName() + ".txt";
-            string nomearquivo = Path.Combine(App.PastaDiretorio,$"{nome}");
+            string nomeArquivo = Path.Combine(App.PastaDiretorio,$"{nome}");
+
+            string conteudoTexto = editor_valor.Text;
 
             //File.Create(nomearquivo);
-            File.WriteAllText(nomearquivo, "Testndo conteudo...");
+            File.WriteAllText(nomeArquivo, conteudoTexto);
 
-            lbl_inicial.Text = "Adicionando...";
+            lbl_inicial.Text = "Adicionando";
 
-            stringList.Add(lbl_inicial.Text);
+            stringList.Add(nomeArquivo);
 
-            //stringList.Add(Arquivo);
+            editor_valor.Text = string.Empty;
 
             //Navigation.PushAsync(new ConsomeContexto());
             //string nomeArquivo = Path.GetRandomFileName();

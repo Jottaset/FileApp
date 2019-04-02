@@ -1,19 +1,20 @@
 ﻿<Properties StartupConfiguration="{BE4B8368-7BA8-4500-930E-08690CCA9DAC}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="FileApp/ConsomeContexto.xaml.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="FileApp/Arquivo.cs">
     <Files>
       <File FileName="FileApp/MainPage.xaml" Line="40" Column="15" />
-      <File FileName="FileApp/MainPage.xaml.cs" Line="26" Column="13" />
-      <File FileName="FileApp/ConsomeContexto.xaml" Line="27" Column="1" />
-      <File FileName="FileApp/ConsomeContexto.xaml.cs" Line="27" Column="5" />
+      <File FileName="FileApp/Arquivo.cs" Line="26" Column="40" />
+      <File FileName="FileApp/ConsomeContexto.xaml" Line="17" Column="36" />
+      <File FileName="FileApp/ConsomeContexto.xaml.cs" Line="67" Column="22" />
+      <File FileName="FileApp/Arquivo.cs" Line="9" Column="25" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="FileApp" expanded="True">
             <Node name="FileApp" expanded="True">
-              <Node name="ConsomeContexto.xaml" expanded="True">
-                <Node name="ConsomeContexto.xaml.cs" selected="True" />
-              </Node>
+              <Node name="App.xaml" expanded="True" />
+              <Node name="Arquivo.cs" selected="True" />
+              <Node name="ConsomeContexto.xaml" expanded="True" />
               <Node name="MainPage.xaml" expanded="True" />
             </Node>
             <Node name="FileApp.Android" expanded="True" />

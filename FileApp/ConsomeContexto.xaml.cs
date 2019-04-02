@@ -59,7 +59,14 @@ namespace FileApp
                 //int indice = nomedearquivos.LastIndexOf('/');
                 //listadearquivos.Add(nomedearquivos.Substring(indice + 1));
 
-                meusArquivos.Add(new Arquivo { Conteudo = "Testando..." });
+                //meusArquivos.Add(new Arquivo { Conteudo = "Testando..." });
+                //File.Delete(nomedearquivos);
+                meusArquivos.Add(new Arquivo
+                {
+                    Conteudo = File.ReadAllText(nomedearquivos),
+                    DtCriacao = File.GetCreationTime(nomedearquivos) //DateTime.Now
+                    
+                });
                 
             }
             MinhaLista.ItemsSource = meusArquivos;
